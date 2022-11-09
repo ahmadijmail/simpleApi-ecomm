@@ -3,7 +3,7 @@ const productsSchema = new mongoose.Schema({
   id: { type: String, allowNull: false },
   name: { type: String, allowNull: false },
   price: { type:Number, allowNull: false },
- 
+   description: { type:Number, allowNull: false },
   image: { type: String, allowNull: false },
 
 }, {
