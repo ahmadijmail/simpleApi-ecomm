@@ -6,7 +6,9 @@ const productsSchema = new mongoose.Schema({
    description: { type:String, allowNull: false },
   image: { type: String, allowNull: false },
 
-}, {
+},
+     { versionKey: '_somethingElse' },                                      
+     {
     timestamps:true
 });
 
