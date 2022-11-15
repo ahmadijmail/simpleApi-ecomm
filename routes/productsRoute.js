@@ -68,7 +68,7 @@ router.delete("/:id", async (req, res) => {
         res.send(error);
       } else {
         console.log(data);
-        res.send(data);
+        res.send(itemId);
       }
     }
   );
