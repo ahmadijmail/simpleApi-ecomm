@@ -44,7 +44,7 @@ router.put("/:id", async (req, res) => {
               res.send(error);
             } else {
               console.log(data);
-              res.send("updated");
+              res.send(data);
             }
           }
         );
